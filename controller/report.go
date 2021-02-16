@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"CasePoint3/models"
+	"Go-PendudukApp/models"
 	"encoding/json"
 	"net/http"
 

@@ -1,11 +1,11 @@
 package main
 
 import (
-	"CasePoint3/config"
-	"CasePoint3/controller"
-	"CasePoint3/midlewares"
-	"CasePoint3/models"
-	"CasePoint3/seeders"
+	"Go-PendudukApp/config"
+	"Go-PendudukApp/controller"
+	"Go-PendudukApp/midlewares"
+	"Go-PendudukApp/models"
+	"Go-PendudukApp/seeders"
 
 	"github.com/gin-gonic/gin"
 )
