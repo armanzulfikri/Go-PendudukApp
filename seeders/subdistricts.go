@@ -1,7 +1,7 @@
 package seeders
 
 import (
-	"CasePoint3/models"
+	"Go-PendudukApp/models"
 	"fmt"
 	"strconv"
 

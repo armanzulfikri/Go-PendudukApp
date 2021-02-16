@@ -1,8 +1,8 @@
 package seeders
 
 import (
-	"CasePoint3/helper"
-	"CasePoint3/models"
+	"Go-PendudukApp/helper"
+	"Go-PendudukApp/models"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
