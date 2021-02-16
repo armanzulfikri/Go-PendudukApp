@@ -1,1 +1,1 @@
-web: penduduk-app
+web: go-getting-started
