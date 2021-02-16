@@ -1,4 +1,4 @@
-module CasePoint3
+module Go-PendudukApp
 
 go 1.15
 
