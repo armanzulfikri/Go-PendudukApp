@@ -2,7 +2,9 @@ package config
 
 import (
 	"fmt"
+	"log"
 
+	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -11,9 +13,10 @@ func Connect() *gorm.DB {
 	// var userDatabase, passDatabase, portDatabase,
 	// 	hostDatabase, nameDatabase, sslDatabase, timezoneDatabase string
 
-	// if err := godotenv.Load(".env"); err != nil {
-	// 	log.Fatal("Error Load .env file")
-	// } else {
+	if err := godotenv.Load(".env"); err != nil {
+		log.Fatal("Error Load .env file")
+	}
+	//  else {
 	// 	userDatabase = os.Getenv("DATABASE_USER")
 	// 	passDatabase = os.Getenv("DATABASE_PASS")
 	// 	portDatabase = os.Getenv("DATABASE_PORT")
